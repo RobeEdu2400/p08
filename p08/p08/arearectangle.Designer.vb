@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormHereda
-    Inherits p08.Form1
+Partial Class arearectangle
+    Inherits p08.area
 
     'Form invalida a Dispose para limpiar la lista de componentes.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -19,7 +19,20 @@ Partial Class FormHereda
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'Label2
+        '
+        Me.Label2.Text = "16:35:39"
+        '
+        'arearectangle
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.ClientSize = New System.Drawing.Size(468, 473)
+        Me.Name = "arearectangle"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
 
 End Class

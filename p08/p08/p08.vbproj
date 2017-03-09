@@ -72,6 +72,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="arearectangle.Designer.vb">
+      <DependentUpon>arearectangle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="arearectangle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arearodona.Designer.vb">
+      <DependentUpon>arearodona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="arearodona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="areatriangle.Designer.vb">
+      <DependentUpon>areatriangle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="areatriangle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="division.Designer.vb">
+      <DependentUpon>division.vb</DependentUpon>
+    </Compile>
+    <Compile Include="division.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -79,10 +103,40 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormHereda.Designer.vb">
-      <DependentUpon>FormHereda.vb</DependentUpon>
+    <Compile Include="aritmetica.Designer.vb">
+      <DependentUpon>aritmetica.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormHereda.vb">
+    <Compile Include="aritmetica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="area.Designer.vb">
+      <DependentUpon>area.vb</DependentUpon>
+    </Compile>
+    <Compile Include="area.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadenas.Designer.vb">
+      <DependentUpon>cadenas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadenas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="longitudcircunferencia.Designer.vb">
+      <DependentUpon>longitudcircunferencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="longitudcircunferencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="multiplicacion.Designer.vb">
+      <DependentUpon>multiplicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="multiplicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otros.Designer.vb">
+      <DependentUpon>otros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="otros.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -100,16 +154,58 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Principal.Designer.vb">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resta.Designer.vb">
+      <DependentUpon>resta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="resta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suma.Designer.vb">
+      <DependentUpon>suma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="suma.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="area.resx">
+      <DependentUpon>area.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arearectangle.resx">
+      <DependentUpon>arearectangle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arearodona.resx">
+      <DependentUpon>arearodona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="areatriangle.resx">
+      <DependentUpon>areatriangle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aritmetica.resx">
+      <DependentUpon>aritmetica.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="longitudcircunferencia.resx">
+      <DependentUpon>longitudcircunferencia.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suma.resx">
+      <DependentUpon>suma.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
